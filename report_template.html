@@ -1,0 +1,21 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Diagram Comparsion</title>
+<meta charset="utf-8"/>
+</head>
+<body>
+    <div> <h1> Requirement Pattern Diagrams Comparison</h1></div>
+    <div> <h2> Original File: <a target=”_blank”  href="{{original_path}}"> {{original}}</a></h2></div>
+    <div> <h2> Updated File: <a target=”_blank”  href="{{updated_path}}"> {{updated}}</a></h2></div>
+    <div> <h3> Diagram Comparison</h3></div>
+    <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;{{xml_document}}&quot;}"></div>
+    <div> <h2> Requirements Comparison</h2></div>
+    <div> {{Classes}}</div>
+    <div> <h2> Relationship Comparison</h2></div>
+    <div> {{Edges}}</div>
+
+    <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+</body>
+</html>
